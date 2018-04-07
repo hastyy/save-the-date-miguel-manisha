@@ -12,6 +12,29 @@
 
 	error: 26px
 */
+.top-bar {
+	margin-bottom: 15px;
+	font-size: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+
+}
+
+.top-bar div {
+	display: flex;
+	align-items: center;
+}
+
+.top-bar img {
+	width: 80px;
+	margin-right: 10px;
+}
+
+.date {
+	color: yellow;
+}
 
 table {
 	width: 100%;
