@@ -252,3 +252,8 @@ var board = new DepartureBoard (document.getElementById ('test'), { rowCount: de
 				console.log(destinations);
 				board.setValue (destinations);
 			}, 90 * 1000);*/
+
+document.querySelectorAll('.row')[6].addEventListener('click', function() {
+	//window.location.href = 'https://www.kailua.pt/';
+	window.open('https://www.kailua.pt/', '_blank');
+});

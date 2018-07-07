@@ -219,5 +219,6 @@ div#id {
 
 .row:nth-of-type(7) {
 	color: yellow !important;
+	cursor: pointer !important;
 }
 
